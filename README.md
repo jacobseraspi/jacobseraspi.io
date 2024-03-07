@@ -24,52 +24,38 @@ Before you start, make sure you have the necessary tools installed:
   - Install [Git](https://git-scm.com/downloads). Andrew Etter states that using a GUI system such as Git is better for basic everyday operations.[^3]
   - Use [Github Desktop](https://desktop.github.com/) to connect your local computer files to the repository.  Connect your account and clone the `[your-github-name].github.io` repository. This will allow you to push your files to the repository. 
   - If you ever get stuck, I have provided a link in [More Resources](#3-more-resources) where you can find more information on how to navigate Git Desktop.
-- **Resume in Markdown**: 
-  - I have provided a copy of my own [resume](index.md) for use in this repository. My resume is a template. Feel free to edit and personalize it using the markdown editor of your choice. ![resumegif](https://media0.giphy.com/media/72YyXcnj0DVZzVaF2d/giphy.gif)
-
-- **Ruby & Jekyll**: 
-  - Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Jekyll](https://jekyllrb.com/docs/installation/) to run your website. 
 
 ## Instructions
 ### 1. GitHub Pages
    
 **Creating a Repository:**
-- Go to [GitHub](https://github.com/) and create a repository named `[your-github-name].github.io`.
-  ![Create Repository]()
-- Use Git Desktop to clone `[your-github-name].github.io` repository to your computer.
+- Go to [GitHub](https://github.com/) and create a repository named `[your-github-name].io`.
+  ![Create Repository](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXFraW5ndG9pazQ0dDNpMmEzZjE5Ym1nZDZrc2xyeXNjd29zM3lwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ffwCPcPxAyxXr5gJbs/giphy.gif)
+- Use Git Desktop to clone `[your-github-name].io` repository to your computer.
+
+**Choosing a theme:**
+- Here are some Jekyll [themes](https://pages.github.com/themes/)
+- In your 'config.yml' file, fill in the theme of your choice. In my example, I used the minimal theme.
+```
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme 
+```
 
 ### 2. Hosting Your Site
-Hosting a static website allows you to easily keep your content up to date and accessible to anyone. We'll use Jekyll for this because of its popularity, and it's recommended by Andrew Etter[^4]. Andrew Etter explains that static websites are basically just a bunch of simple markup files that you can edit using any text editor you like[^5].
+Hosting a static website allows you to easily keep your content up to date and accessible to anyone. We'll use a Jekyll for this because of its popularity, and it's recommended by Andrew Etter[^4]. Andrew Etter explains that static websites are basically just a bunch of simple markup files that you can edit using any text editor you like[^5].
 
-1. **Verifying Ruby and Jekyll**
-   - Verify installation by running `ruby -v` on the command line or terminal.
-   - Confirm installation with `jekyll -v` on the command line or terminal.
-   - Follow Jekyll's [Quickstart Guide](https://jekyllrb.com/docs/) for your OS.
 
-2. **Initialize Your Site:**
-   - Open your command line and navigate to your repository directory. For example: `cd Documents/GitHub/[your-github-name].github.io`
-   - Run `jekyll new [your-site-name]` on the command line.
-   - Navigate into the newly created folder by typing `cd [your-site-name]`.
-   - Install `webrick` by running `bundle add webrick` and `bundle install`.
-   - Start hosting your site with `bundle exec jekyll serve`.
-   - Your site will be live at the provided LocalHost URL, which is in your terminal. Open the link in your web browser, and you can see that your site is created!
+1. **Initialize Your Site:**
+   - In Github, go to settings > pages > select main branch as the source. ![Static Site Generation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmk0azdlbzdqYWVmb216eXd2amNoMjgyb2U0NXdybnU0bHhxNDNreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wvhPyqNlwhP36mmbHo/giphy.gif)
+   - This will allow Github to build your website.
+  
+2. **Edit Your Resume:**
+     - I have provided a copy of my own [resume](index.md) for use in this repository. My resume is a template. Feel free to edit and personalize it using the markdown editor of your choice. 
 
-3. **Edit Your Resume:**
-   - Copy your **resume.md** file to the `_posts` folder in `[your-github-name].github.io`.
-   - Rename the file with the date format `YYYY-MM-DD-resume.md`.
-   - Add to the top of your resume markdown file so the Jekyll compiler can find your resume and list it as a post.
-```
----
-layout: post
-title:  "Resume"
-date:   [current date + time]
-categories: jekyll update
----
-```
-
-1. **Push and View Your Website:**
-   - Use Git Desktop to push your changes to the repository.
-   - Visit `https://[your-github-name].github.io` to see your website live with your resume.
+3. **Push and View Your Website:**
+   - Use Git Desktop or Visual Studio Code to push your changes to the repository.
+   - Visit `https://git-username.github.io/repository-name/`. Make sure you fill in your Github username as well as the repository name, and there you have it, a functional static website!
 
 ### 3. More Resources
 
