@@ -9,6 +9,9 @@ Learn how to create and publish your resume on a website using Markdown, Visual 
     - [2. Hosting Your Site](#2-hosting-your-site)
     - [3. More Resources](#3-more-resources)
   - [Authors and Acknowledgements](#authors-and-acknowledgements)
+  - [FAQs](#faqs)
+    - [1. "Why is Markdown better than a word processor?"](#1-why-is-markdown-better-than-a-word-processor)
+    - [2. "Why is my resume not showing up?"](#2-why-is-my-resume-not-showing-up)
 
 ## Prerequisites
 Before you start, make sure you have the necessary tools installed:
@@ -76,6 +79,14 @@ Thanks to my group mates:
 Acknowledgements to:  
  - [tsudere](https://github.com/tsusdere) for their template that I used on my site!
  - To Andrew Etter, for his book 'Modern Technical Writing'
+
+## FAQs
+
+### 1. "Why is Markdown better than a word processor?"
+* 
+
+### 2. "Why is my resume not showing up?"
+* 
 
 [^1]: Andrew Etter - Modern Technical Writing, 39  
 [^2]: Andrew Etter - Modern Technical Writing, 33  
