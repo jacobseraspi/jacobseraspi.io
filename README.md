@@ -14,7 +14,7 @@ Learn how to create and publish your resume on a website using Markdown, Visual 
 Before you start, make sure you have the necessary tools installed:
 
 - **Markdown Editor** 
-  - Using a markup language can be really helpful. Andrew Etter explains in his book "Modern Technical Writing" that it's important because it makes it easy to create content that can be shared online, like XML[^1]. Out of all the markup languages out there, I chose Markdown because it's the most commonly used and it's pretty versatile[^2].
+  - Using a markup language can be really helpful. Out of all the markup languages out there, I chose Markdown because it's the most commonly used and it's pretty versatile[^1]. Andrew Etter explains in his book "Modern Technical Writing" that it's important because it makes it easy to create content that can be shared online, like XML[^2]. 
   - You can use any markdown editors of your choice, but I like to use [VS Code](https://code.visualstudio.com/download). 
   - Other Markdown editor options: [Typora](https://typora.io/), [Ghostwriter](https://ghostwriter.kde.org/), or [Atom](https://atom.io/)
   - I have provided a Markdown tutorial in [More Resources](#3-more-resources).
@@ -43,7 +43,7 @@ plugins:
 ```
 
 ### 2. Hosting Your Site
-Hosting a static website allows you to easily keep your content up to date and accessible to anyone. We'll use a Jekyll for this because of its popularity, and it's recommended by Andrew Etter[^4]. Andrew Etter explains that static websites are basically just a bunch of simple markup files that you can edit using any text editor you like[^5].
+Hosting a static website allows you to easily keep your content up to date and accessible to anyone. Andrew Etter explains that static websites are basically just a bunch of simple markup files that you can edit using any text editor you like[^4]. We'll use a Jekyll for this because of its popularity, and it's recommended by Andrew Etter[^5]. 
 
 
 1. **Initialize Your Site:**
@@ -73,8 +73,8 @@ Thanks to my group mates:
 
 Acknowledgements to 
 
-[^1]: Andrew Etter - Modern Technical Writing, 33  
-[^2]: Andrew Etter - Modern Technical Writing, 39  
+[^1]: Andrew Etter - Modern Technical Writing, 39  
+[^2]: Andrew Etter - Modern Technical Writing, 33  
 [^3]: Andrew Etter - Modern Technical Writing, 46  
-[^4]: Andrew Etter - Modern Technical Writing, 51  
-[^5]: Andrew Etter - Modern Technical Writing, 52  
+[^4]: Andrew Etter - Modern Technical Writing, 52  
+[^5]: Andrew Etter - Modern Technical Writing, 51  
