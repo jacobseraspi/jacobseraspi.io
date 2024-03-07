@@ -52,7 +52,8 @@ Hosting a static website allows you to easily keep your content up to date and a
    - This will allow Github to build your website.
   
 1. **Edit Your Resume:**
-     - I have provided a copy of my own [resume](index.md) for use in this repository. My resume is a template. Feel free to edit and personalize it using the markdown editor of your choice. 
+     - I have provided a copy of my own [resume](index.md) for use in this repository. Feel free to edit and personalize it using the markdown editor of your choice.  
+    ![Resume](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHZzcGFyeWEwNXpoMm5wb2NzbTR1M3h0YThham40amcwNG9taWVvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RNok9IhsyZ9a3wWr3G/giphy.gif)
 
 2. **Push and View Your Website:**
    - Use Git Desktop or Visual Studio Code to push your changes to the repository.
@@ -72,7 +73,9 @@ Thanks to my group mates:
 - [Farah Hegazi]()
 - [Fengfan Bian]()
 
-Acknowledgements to 
+Acknowledgements to:  
+ - [tsudere](https://github.com/tsusdere) for their template that I used on my site!
+ - To Andrew Etter, for his book 'Modern Technical Writing'
 
 [^1]: Andrew Etter - Modern Technical Writing, 39  
 [^2]: Andrew Etter - Modern Technical Writing, 33  
