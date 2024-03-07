@@ -29,7 +29,7 @@ Before you start, make sure you have the necessary tools installed:
 ### 1. GitHub Pages
    
 **Creating a Repository:**
-- Go to [GitHub](https://github.com/) and create a repository named `[your-github-name].io`.
+- Go to [GitHub](https://github.com/) and create a repository named `[your-github-name].io`.  
   ![Create Repository](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXFraW5ndG9pazQ0dDNpMmEzZjE5Ym1nZDZrc2xyeXNjd29zM3lwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ffwCPcPxAyxXr5gJbs/giphy.gif)
 - Use Git Desktop to clone `[your-github-name].io` repository to your computer.
 
@@ -47,13 +47,14 @@ Hosting a static website allows you to easily keep your content up to date and a
 
 
 1. **Initialize Your Site:**
-   - In Github, go to settings > pages > select main branch as the source. ![Static Site Generation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmk0azdlbzdqYWVmb216eXd2amNoMjgyb2U0NXdybnU0bHhxNDNreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wvhPyqNlwhP36mmbHo/giphy.gif)
+   - In Github, go to settings > pages > select main branch as the source.  
+    ![Static Site Generation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmk0azdlbzdqYWVmb216eXd2amNoMjgyb2U0NXdybnU0bHhxNDNreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wvhPyqNlwhP36mmbHo/giphy.gif)
    - This will allow Github to build your website.
   
-2. **Edit Your Resume:**
+1. **Edit Your Resume:**
      - I have provided a copy of my own [resume](index.md) for use in this repository. My resume is a template. Feel free to edit and personalize it using the markdown editor of your choice. 
 
-3. **Push and View Your Website:**
+2. **Push and View Your Website:**
    - Use Git Desktop or Visual Studio Code to push your changes to the repository.
    - Visit `https://git-username.github.io/repository-name/`. Make sure you fill in your Github username as well as the repository name, and there you have it, a functional static website!
 
