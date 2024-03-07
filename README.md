@@ -74,7 +74,7 @@ Hosting a static website allows you to easily keep your content up to date and a
 
 Thanks to my group mates:
 - [Farah Hegazi]()
-- [Fengfan Bian]()
+- [Fengfan Bian](Fyfe-c.github.io)
 
 Acknowledgements to:  
  - [tsudere](https://github.com/tsusdere) for their template that I used on my site!
