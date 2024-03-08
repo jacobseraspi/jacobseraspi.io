@@ -1,8 +1,3 @@
----
-title: "Jacob Seraspi Resume"
-description: "Assignment 2 Resume"
----
-
 # Jacob Seraspi
 
 22 Durward Street, Winnipeg, Manitoba R2V3P6  
