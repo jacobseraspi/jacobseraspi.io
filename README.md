@@ -10,8 +10,10 @@ Learn how to create and publish your resume on a website using Markdown, Visual 
     - [3. More Resources](#3-more-resources)
   - [Authors and Acknowledgements](#authors-and-acknowledgements)
   - [FAQs](#faqs)
-    - [1. "Why is Markdown better than a word processor?"](#1-why-is-markdown-better-than-a-word-processor)
-    - [2. "Why is my resume not showing up?"](#2-why-is-my-resume-not-showing-up)
+    - [1. Why is Markdown preferable to a word processor?](#1-why-is-markdown-preferable-to-a-word-processor)
+      - [Ease of Use](#ease-of-use)
+      - [Web Compatibility](#web-compatibility)
+    - [2. Why isn't my resume displaying?](#2-why-isnt-my-resume-displaying)
 
 ## Prerequisites
 Before you start, make sure you have the necessary tools installed:
@@ -67,26 +69,43 @@ Hosting a static website allows you to easily keep your content up to date and a
 1. [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax): This tutorial will help you learn Markdown.
 2. [Andrew Etter's *Modern Technical Writing*](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS): Dive deeper into Technical Writing with this book.
 3. [Git Tutorials](https://www.atlassian.com/git/tutorials): Understanding Git will be valuable as you progress. Troubleshooting and reading over this tutorial when you feel like you're stuck will make it easier for yourself in the future.
+4. [Jekyll Theme Tutorial](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll): An additional resource for how to apply a Jekyll theme to your Github Pages site.
 
 ## Authors and Acknowledgements
 
 [Jacob Seraspi](https://github.com/jacobseraspi)
 
 Thanks to my group mates:
-- [Farah Hegazi]()
-- [Fengfan Bian](Fyfe-c.github.io)
+- [Farah Hegazi](https://github.com/farahhegazi)
+- [Fengfan Bian](https://github.com/Fyfe-c)
 
 Acknowledgements to:  
- - [tsudere](https://github.com/tsusdere) for their template that I used on my site!
+ - [tsudere](https://github.com/tsusdere) for their template that I used on my site.
  - To Andrew Etter, for his book 'Modern Technical Writing'
 
 ## FAQs
 
-### 1. "Why is Markdown better than a word processor?"
-* 
+### 1. Why is Markdown preferable to a word processor?
 
-### 2. "Why is my resume not showing up?"
-* 
+Markdown stands out for its technical prowess and ease of use.
+
+#### Ease of Use
+- **Simplified Syntax:** Markdown employs a straightforward syntax, relying on symbols rather than complex formatting options. It streamlines the writing process by minimizing the learning curve.
+- **Universal Compatibility:** Markdown operates seamlessly across various text editors, ensuring consistent performance regardless of the platform. This universal compatibility fosters flexibility and independence from proprietary software.
+
+#### Web Compatibility
+- **HTML Conversion:** Markdown facilitates effortless conversion of plain text into HTML, enabling seamless integration with web publishing platforms. This feature simplifies the transition from document creation to online publication.
+- **Extensibility:** Markdown's extensibility allows for the incorporation of additional features and customization options. Users can enhance their documents with supplementary functionalities, enhancing the richness and interactivity of their content.
+
+### 2. Why isn't my resume displaying?
+
+If your resume isn't visible, consider these troubleshooting steps:
+
+- **Check Server Status:** Verify the operational status of the GitHub servers to ensure uninterrupted service. Temporary disruptions or maintenance activities may impact accessibility.
+- **Validate URL:** Review the accuracy of the resume's URL, ensuring alignment with the designated link in the GitHub repository settings. Inaccurate URLs can lead to accessibility issues and hinder visibility.
+- **Branch Configuration:** Confirm the selection of the appropriate branch for website deployment within the repository settings. Accurate branch selection is crucial for reflecting updates and changes on the live site effectively.
+
+
 
 [^1]: Andrew Etter - Modern Technical Writing, 39  
 [^2]: Andrew Etter - Modern Technical Writing, 33  
