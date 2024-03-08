@@ -40,9 +40,9 @@ Before you start, make sure you have the necessary tools installed:
 
 **Choosing a theme:**
 - Here are some Jekyll [themes](https://pages.github.com/themes/)
-- In your 'config.yml' file, fill in the theme of your choice. In my example, I used the minimal theme.
+- In your 'config.yml' file, fill in the theme of your choice. In my example, I used the midnight theme.
 ```
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme 
 ```
