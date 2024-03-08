@@ -80,7 +80,7 @@ Thanks to my group mates:
 - [Fengfan Bian](https://github.com/Fyfe-c)
 
 Acknowledgements to:  
- - [Matt Graham]([https://github.com/tsusdere](https://twitter.com/mattgraham)) for their template that I used on my site.
+ - [Matt Graham](https://twitter.com/mattgraham) for their template that I used on my site.
  - To Andrew Etter, for his book 'Modern Technical Writing'
 
 ## FAQs
